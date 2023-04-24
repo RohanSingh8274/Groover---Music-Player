@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Comfortaa&family=Dancing+Script:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.cover{
+    background-image: url('../img/background.webp');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 110vh;
+    
+}
+.container{
+    width: 600px;
+    color: white;
+    margin: 0 auto;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.title img{
+    width: 75px;
+    padding: 1px 12px 1px 0;
+}
+.title h1{
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+}
+form{
+    padding: 15px 0;
+}
+.login-sec{
+    padding: 10px 6px;
+}
+.sec a{
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    float: right;
+}
+.sec a:hover{
+    color: rgb(228, 241, 43);
+    font-size: 18px;
+}
+label,p{
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    padding: 6px 0;
+}
+.login-sec input{
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    width: 500px;
+    border: none;
+    margin: 8px 0px;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn{
+    padding-inline: 8px;
+    height: 35px;
+}
+.login-btn{
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+hr{
+    width: 45%;
+    border-top: 3px solid grey;
+    border-radius: 2px;
+}
+.look{
+    justify-content: space-between;
+    color: grey;
+}
+.askRegister{
+    padding-inline: 8px;
+}
+.anchor{
+    margin: 20px 0;
+    height: 35px;
+}
+.AnchorRedirect{
+    background-color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0 ;
+    cursor: pointer;
+}
+.anchor a:hover,.login-btn:hover{
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(141, 50, 150);
+    background: linear-gradient(90deg, rgba(141, 50, 150, 1) 3%, rgba(9, 79, 121, 1) 35%, rgba(63, 8, 131, 1) 344%, rgba(5, 103, 183, 1) 65%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    background-color: grey;
+}
+#corrSub {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    background: rgb(141, 50, 150);
+    background: linear-gradient(90deg, rgba(141, 50, 150, 1) 3%, rgba(9, 79, 121, 1) 35%, rgba(63, 8, 131, 1) 344%, rgba(5, 103, 183, 1) 65%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+

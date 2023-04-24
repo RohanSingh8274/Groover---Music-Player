@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&family=Comfortaa&family=Dancing+Script:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utility class  */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* header  */
+header{
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 1180px;
+    
+}
+.navbar {
+    justify-content: space-between;
+   
+}
+
+.logo-img {
+    width: 130px;
+
+}
+
+.nav-items a {
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    margin-inline: 5px;
+    padding:5px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.nav-items a:hover {
+    background: rgb(141, 50, 150);
+    background: linear-gradient(90deg, rgba(141, 50, 150, 1) 3%, rgba(9, 79, 121, 1) 35%, rgba(63, 8, 131, 1) 344%, rgba(5, 103, 183, 1) 65%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* body  */
+
+.cover {
+    background-image: url('../img/addMusic.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 90vh;
+    
+}
+
+.contain {
+    width: 590px;
+    color: white;
+    margin: 0 auto;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.title {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title img {
+    width: 65px;
+    padding: 1px 12px 1px 0;
+}
+
+.title h1 {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    padding: 2px 0;
+}
+
+#corrSub {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    background: rgb(141, 50, 150);
+    background: linear-gradient(90deg, rgba(141, 50, 150, 1) 3%, rgba(9, 79, 121, 1) 35%, rgba(63, 8, 131, 1) 344%, rgba(5, 103, 183, 1) 65%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    border: none;
+    width: 240px;
+    border-radius: 20px;
+}
+
+form {
+    padding: 6px 0;
+}
+
+.login-sec {
+    padding: 8px 6px;
+}
+
+label,
+p {
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    padding: 6px 5px;
+}
+p{
+    padding-inline: 25px;
+}
+.login-sec input {
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    width: 275px;
+    border: none;
+    margin: 8px 0px;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    padding-inline: 8px;
+    text-align: center;
+    height: 35px;
+}
+
+.login-btn {
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+hr {
+    width: 45%;
+    border-top: 3px solid grey;
+    border-radius: 2px;
+}
+
+.look {
+    justify-content: space-between;
+    color: grey;
+}
+
+.askRegister {
+    padding-inline: 8px;
+    text-align: center;
+}
+
+.anchor {
+    margin: 20px 0;
+}
+
+.AnchorRedirect {
+    background-color: white;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+}
+
+.anchor a:hover,
+.login-btn:hover {
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(141, 50, 150);
+    background: linear-gradient(90deg, rgba(141, 50, 150, 1) 3%, rgba(9, 79, 121, 1) 35%, rgba(63, 8, 131, 1) 344%, rgba(5, 103, 183, 1) 65%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+/* footer  */
+footer{
+    background-color:grey;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-heart{
+    color: red;  
+}
+
